@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Memory Card Flip Game</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>🧠 Memory Card Flip Game</h1>
+  <div class="info">
+    <p id="timer">⏱️ Time: 0s</p>
+    <p id="best-time">🏆 Best: --</p>
+    <button id="restartBtn">🔁 Restart</button>
+  </div>
+  <div class="game-board" id="game-board"></div>
+  <h2 id="win-message" style="display:none;">🎉 You Win!</h2>
+
+  <!-- 🔊 Sound Effects -->
+  <audio id="flip-sound" src="https://assets.mixkit.co/sfx/download/mixkit-arcade-retro-game-over-213.wav"></audio>
+  <audio id="match-sound" src="https://assets.mixkit.co/sfx/download/mixkit-game-ball-tap-2073.wav"></audio>
+  <audio id="win-sound" src="https://assets.mixkit.co/sfx/download/mixkit-winning-chimes-2015.wav"></audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
